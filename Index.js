@@ -27,7 +27,7 @@ app.get('/api/plants', (req, res) => {
 });
 
 //Returns dummy data
-    //10 Fun facts about plants
+    //10 Fun facts about cats
     app.get('/api/cats', (req, res) => {
         const cats = ["Cats can rotate their ears 180 degrees,   The first year of a cat’s life is roughly equal to the first 15 years of human life,   Purring does not always mean that a cat is happy,   The world's oldest living cat is 31 years old,   Cats can be allergic to humans,   Japan has a cat who manages a train station,   Cats cannot taste sweets,   Cats have more bones than humans,   Cats could tell when a thunderstorm is coming,   A cat’s brain is biologically more similar to a human brain than it is to a dog’s"];
         res.send(JSON.stringify(cats));
